@@ -1,0 +1,30 @@
+candidatos = ["Hollman", "Fernando", "Daniel", "Brayahn", "Joel"]
+votos = [0, 0, 0, 0, 0]
+
+n = leer_entero("Ingrese el número de estudiantes que van a votar (máximo 20)")
+si n > 20 entonces
+    n = 20
+
+
+para i desde 1 hasta n hacer
+    mostrar "Candidatos:"
+    para j desde 1 hasta 5 hacer
+        mostrar j, ".", candidatos[j]
+    
+    voto = leer_entero("Estudiante " + i + ", ingrese el número del candidato por el que quiere votar")
+    votos[voto-1] = votos[voto-1] + 1
+
+clasificacion = ordenar_por_votos(candidatos, votos)
+
+mostrar "Resultados de la emulación:"
+para i desde 1 hasta 5 hacer
+    mostrar i, ".", clasificacion[i], ": ", votos[clasificacion[i]] " votos"
+
+
+funcion ordenar_por_votos(candidatos, votos)
+    orden = [1, 2, 3, 4, 5]
+    para i desde 1 hasta 4 hacer
+        para j desde i+1 hasta 5 hacer
+            si votos[orden[i]-1] < votos[orden[j]-1] entonces
+                intercambiar(orden, i, j)
+          
