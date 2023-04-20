@@ -1,0 +1,50 @@
+inicio
+definir int a=0,b=0,c=0,d=0,e=0,votantes,opc;
+escribir " Digite la cantidad de votantes que participaran en la elección";
+leer votantes
+if(votantes >=20 o votantes<=0){
+	escribir " Digite un numero entre el rango [1-20],  recuerde que la muestra para este programa es de máximo 20";
+	}
+else{
+	for( int i=1; i<=votantes; i++) {
+		escribir "Candidato #"<<i<<"Digite su voto";
+		escribir: "Recuerde que los Candidatos son";
+		escribir: "Opc 1: Joel"
+		escribir: "Opc 2: Daniel "
+		escribir: "Opc 3: Fernando "
+		escribir: "Opc 4: Brayan "
+		escribir: "Opc 5: Hollman "
+		Leer opc;
+		if(opc==1){
+			a=a+1;
+			}
+		}
+			else{
+				if(opc==2{
+					b=b+1;
+						else{
+							if(opc==3){
+					c=c+1;
+						}
+							else{
+								if(opc==4){
+									c=c+1;
+										}
+										else{
+											if(opc==5){
+												d=d+1;
+													}
+														else{
+															if(opc==6){
+																e=e+1;
+																	}}}}
+																	}
+																
+	escribir "La cantidad de votos por candidatos es la siguiente";
+	escribir: "Joel"<<a: 
+	escribir: "Daniel"<<b;
+	escribir: "Fernando"<<c;
+	escribir: "Brayan"<<d;
+	escribir: "Hollman"<<e;
+		}
+}
