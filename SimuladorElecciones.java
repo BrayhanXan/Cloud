@@ -35,33 +35,19 @@ Para (i = 1, i ≤ cantidad_votos, i++) {
     } si no (voto == 5) {
         c5 = c5 + 1
     }
-}
+    }fin si
+}fin para
 
 //Mostrar los resultados de la simulación
 Imprimir "Los resultados de la simulación son:"
-Imprimir "Hollman: " + Hollman
-Imprimir "Fernando: " + Fernando
-Imprimir "Daniel: " + Daniel
-Imprimir "Brayhan: " + Brayhan
-Imprimir "Joel: " + Joel
-    
-        // Ordenación de los candidatos de acuerdo a la cantidad de votos
-        for (int i = 0; i < candidatos.length - 1; i++) {
-            for (int j = i + 1; j < candidatos.length; j++) {
-                if (votos[i] < votos[j]) {
-                    int ordVotos = votos[i];
-                    votos[i] = votos[j];
-                    votos[j] = ordVotos;
-                    String ordCandidato = candidatos[i];
-                    candidatos[i] = candidatos[j];
-                    candidatos[j] = ordCandidato;
-                }
-            }
-        }
-        // Mostrar el resultado
-        System.out.println("Resultados Elecciones Universidad:");
-        for (int i = 0; i < candidatos.length; i++) {
-            System.out.println((i+1) + ". " + candidatos[i] + " " + votos[i]);
-        }
-    }
-}
+Imprimir "Hollman: " + c1
+Imprimir "Fernando: " + c2
+Imprimir "Daniel: " + c3
+Imprimir "Brayhan: " + c4
+Imprimir "Joel: " + c5
+
+//Organizar candidatos de mayor a menor votación
+
+Imprimir "Resultados Elecciones CUN"
+
+Final
