@@ -1,4 +1,3 @@
-Incio
 
 //Definir variables
 INT Canditdatos ≤ 5 
@@ -12,7 +11,6 @@ INT Canditdatos ≤ 5
 //Pedir al usuario que ingrese la cantidad de votos que desea simular
 Leer cantidad_votos
 
-joel 
 
 
 
