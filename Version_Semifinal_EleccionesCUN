@@ -7,7 +7,7 @@ INT n1 =0   //Hollman
     n4=0    //Brayhan
     n5=0    //Joel
     
-    Imprimir "Candidatos total de votos"
+    Imprimir "Candidatos"
     "Hollman = 0
     Fernando = 0
     Daniel = 0
