@@ -1,30 +1,50 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
+Inicio Simulador de Elecciones 
 
-package com.mycompany.simuladorelecciones;
-
-import java.util.Random;
-
-/**
- *
- * @author Joel Vargas
- */
-public class SimuladorElecciones {
+//Definición de variables
+INT c1 = 0  //Hollman
+    c2 = 0  //Fernando
+    c3 = 0  //Daniel
+    c4 = 0  //Brayhan
+    c5 = 0  //Joel
     
-    public static void main(String[] args) {
-        String[] candidatos = {"Hollman", "Fernando", "Daniel", "Brayhan", "Joel"};
-        int[] votos = new int[candidatos.length];
-        int numVotos = 20; 
-        
-        Random rand = new Random();
-        
-        System.out.println("Simulación de Elecciones Estudiantiles con " + numVotos + " votos:");
-        for (int i = 0; i < numVotos; i++) {
-            int candidatoVotado = rand.nextInt(candidatos.length); // Generar un número aleatorio para los candidatos en el arreglo
-            votos[candidatoVotado]++; // Aumentar en 1 el contador de votos del candidato correspondiente
-        }
-        
+//Mostrar lista de candidatos con sus números
+Imprimir "Lista de candidatos:"
+Imprimir "1. Hollman"
+Imprimir "2. Fernando"
+Imprimir "3. Daniel"
+Imprimir "4. Brayhan"
+Imprimir "5. Joel"
+    
+//Pedir al usuario la cantidad de simulación de votos
+Leer cantidad_votos
+
+//Comenzar a hacer la simulación del voto
+Para (i = 1, i ≤ cantidad_votos, i++) {
+    Imprimir "Para el votante " i " su voto es para (ingrese el número correspondiente al candidato):"
+    Leer int voto
+    
+    //Contar votos para los candidatos
+    si (voto == 1) {
+        c1 = c1 + 1
+    } si no (voto == 2) {
+        c2 = c2 + 1
+    } si no (voto == 3) {
+        c3 = c3 + 1
+    } si no (voto == 4) {
+        c4 = c4 + 1
+    } si no (voto == 5) {
+        c5 = c5 + 1
+    }
+}
+
+//Mostrar los resultados de la simulación
+Imprimir "Los resultados de la simulación son:"
+Imprimir "Hollman: " + Hollman
+Imprimir "Fernando: " + Fernando
+Imprimir "Daniel: " + Daniel
+Imprimir "Brayhan: " + Brayhan
+Imprimir "Joel: " + Joel
+    
         // Ordenación de los candidatos de acuerdo a la cantidad de votos
         for (int i = 0; i < candidatos.length - 1; i++) {
             for (int j = i + 1; j < candidatos.length; j++) {
