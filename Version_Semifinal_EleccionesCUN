@@ -32,30 +32,53 @@ para i = 1, i=n, i++
     Si v = "Joel"
         n5+=1
     No
-        Imprimir "ingrese un representate valido"
+        Imprimir "ingrese un representate válido"
         
-
-n1 = Leer("Ingrese el número de votos para "Hollman")
-n2 = Leer("Ingrese el número de votos para "Fernando")
-n3 = Leer("Ingrese el número de votos para "Daniel")
-n4 = Leer("Ingrese el número de votos para "Brayhan")
-n5 = Leer("Ingrese el número de votos para "Joel"))
 n6 = [n1, n2, n3, n4, n5]
 Si (n1,n2,n3,n4,n5 > 20)
 
+//Mostrar el representante con mas votos
 
+Ordenado = ""
 
+si n1 < n2 entonces        
+    temp = n1
+    n1 = n2
+    n2 = temp
+fin si
 
+si n2 < n3 entonces
+    temp = n2
+    n2 = n3
+    n3 = temp
+fin si
 
+si n3 < n4 entonces
+    temp = n3
+    n3 = n4
+    n4 = temp
+fin si
 
+si n4 < n5 entonces
+    temp = n4
+    n4 = n5
+    n5 = temp
+fin si
+
+si n1 < n2 entonces
+    temp = n1
+    n1 = n2
+    n2 = temp
+fin si
+
+si n2 < n3 entonces
+    temp
 Fin si 
 
-No 
-Imprimir "max votantes 20"
-cerrar programa 
-Fin Si
-No 
-Imprimir "max estudiantes 20"
+Ordenado = temp
+
+Imprimir "Ordenado"
+
 cerrar programa 
 
 
