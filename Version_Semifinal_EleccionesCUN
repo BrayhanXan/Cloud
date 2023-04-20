@@ -16,6 +16,22 @@ n = Leer("Ingrese el número de estudiantes que van a votar (máximo 20): ")
 
 Si n > 20 Entonces
 
+para i = 1, i=n, i++
+    v=Leer("Ingrese el nombre del representante")
+    si v="Hollman"
+        n1+=1 
+    Si v ="Fernando"
+        n2+=1
+    Si v="Daniel"
+        n3+=1
+    Si v="Brayhan"
+        n4+=1
+    Si v = "Joel"
+        n5+=1
+    No
+        Imprimir "ingrese un representate valido"
+        
+
 n1 = Leer("Ingrese el número de votos para "Hollman")
 n2 = Leer("Ingrese el número de votos para "Fernando")
 n3 = Leer("Ingrese el número de votos para "Daniel")
@@ -23,6 +39,8 @@ n4 = Leer("Ingrese el número de votos para "Brayhan")
 n5 = Leer("Ingrese el número de votos para "Joel"))
 n6 = [n1, n2, n3, n4, n5]
 Si (n1,n2,n3,n4,n5 > 20)
+
+
 
 
 
