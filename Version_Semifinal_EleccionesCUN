@@ -1,17 +1,20 @@
 Inicio
 
 //Definir variables
-INT Canditdatos ≤ 5 
-    Hollman = 0
+INT n1 =0   //Hollman
+    n2=0    //Fernando
+    n3=0    //Daniel
+    n4=0    //Brayhan
+    n5=0    //Joel
+    
+    Imprimir "Candidatos total de votos"
+    "Hollman = 0
     Fernando = 0
     Daniel = 0
     Brayhan = 0
-    Joel = 0
-    maximo_votos ≤ 20
-
-//Pedir al usuario que ingrese la cantidad de votos que desea simular
-Leer cantidad_votos
-
+    Joel = 0"
+    
+//Pedir al usuario la cantidad de votos a simular
 n = Leer("Ingrese el número de estudiantes que van a votar (máximo 20): ")
 
 Si n > 20 Entonces
