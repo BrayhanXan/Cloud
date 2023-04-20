@@ -1,15 +1,26 @@
 Incio
 
 //Definir variables
-INT Hollman = 0
-Fernando = 0
-Daniel = 0
-Brayhan = 0
-Joel = 0
-maximo_votos ≤ 20
+INT Canditdatos ≤ 5 
+    Hollman = 0
+    Fernando = 0
+    Daniel = 0
+    Brayhan = 0
+    Joel = 0
+    maximo_votos ≤ 20
 
 //Pedir al usuario que ingrese la cantidad de votos que desea simular
 Leer cantidad_votos
+
+
+
+
+
+
+
+
+Hola soy brayhan 
+
 
 
 
